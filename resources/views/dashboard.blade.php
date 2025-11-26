@@ -7,8 +7,8 @@
         <aside class=" bg-gray-900 text-white p-6 flex-shrink-0">
             <ul>
                 <li class="mb-3 hover:bg-gray-700 p-2 rounded"><a href="#">Home</a></li>
-                <li class="mb-3 hover:bg-gray-700 p-2 rounded"><a href="#">Products</a></li>
-                <li class="mb-3 hover:bg-gray-700 p-2 rounded"><a href="#">Add Products</a></li>
+                <li class="mb-3 hover:bg-gray-700 p-2 rounded"><a href="{{ route('products.allproducts') }}">Products</a></li>
+                <li class="mb-3 hover:bg-gray-700 p-2 rounded"><a href="{{ route('products.addproducts') }}">Add Products</a></li>
                 <li class="mb-3 hover:bg-gray-700 p-2 rounded"><a href="#">Orders</a></li>
                 <li class="mb-3 hover:bg-gray-700 p-2 rounded"><a href="#">Transaction</a></li>
                 <li class="mb-3 hover:bg-gray-700 p-2 rounded"><a href="#">Messages</a></li>
